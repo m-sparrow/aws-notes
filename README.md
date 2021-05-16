@@ -74,6 +74,15 @@
 59. Systems Manager - ?
 60. Cloud Map - ?
 
+## How to create resources in AWS
+Resources can be created through one of the following methods
+1. Through Management Console
+2. Using AWS Client utility
+3. Using AWS SDK
+4. Using IAC tools such as CloudFormation, Terraform or similar IAC tools
+
+
+
 
 
 
