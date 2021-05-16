@@ -37,10 +37,25 @@
 29. Route53 - DNS service | **Networking**
 30. API Gateways - Often used with Lambda | Authentication is controlled through Cognito | **Networking**
 31. CloudFront - Content Delivery Service | Something like Akamai | **Networking**
+32. DirectConnect - Securely connect on premises network to VPC | **Networking**
 
-32. ClouWatch - What happened (events) within services | **Monitoring**
-33. CloudTrail - Who triggered (events) upon services | **Monitoring**
+33. ClouWatch - What happened (events) within services | **Monitoring**
+34. CloudTrail - Who triggered (events) upon services | **Monitoring**
 
-34. CloudFormation - IAC
+35. CloudFormation - IAC
+
+36. Cognito - User Sign Up for web and mobile apps | **Authentication**
+
+36. SNS - Pub-Sub Notifications | SMS | eMail | Mobile Push Notifications | **App Integration**
+37. SES - Managed eMail Service | **App Integration**
+38. SQS - Managed Queue Service | ActiveMQ | RabbitMQ | **App Integration**
+39. MQ - Message Broker | Deploy MQ on cloud as it is without code changes | **App Integration**
+
+40. SWF - Workflow service like JBPM or Drools | **App Integration**
+41. Step Functions - Implement State Machines | **App Integration**
+
+42. Kinesis - ?
+
+
 
 
