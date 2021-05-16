@@ -99,7 +99,7 @@ https://aws.amazon.com/de/blogs/germany/elastic-jboss-as-7-clustering-in-aws-usi
 https://github.com/aws
 https://github.com/awslabs
 
-## How to manage Keystore and Trustore
+## How to manage Keystore and Truststore
 It can be uploaded to AWS Secrets Manager depending on the size of JKS file. Best approach would be to upload the JKS file to private S3 bucket and it's password to AWS Secrets Manager. Then, download the JKS file from S3 Bucket into instance file system using aws client before starting the application.
 
 
