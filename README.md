@@ -81,6 +81,15 @@ Resources can be created through one of the following methods
 3. Using AWS SDK
 4. Using IAC tools such as CloudFormation, Terraform or similar IAC tools
 
+## How to establish connectivity within AWS Resources
+Connectivity can be classified into two types 
+1. Connectivity between resources such as EC2 connecting to S3 or Lambda connecting to DynamoDb. Such connectivity is often achieved via IAM Roles.
+2. Application running within a resource connecting to another resource. Such as a SpringBoot application running in EC2 connecting to RDS. It is often achieved through AWS SDK and user credentials.
+
+## Credential provider chain
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html
+
+## JBoss EAP on AWS Cloud
 
 
 
