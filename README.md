@@ -83,7 +83,7 @@ Resources can be created through one of the following methods
 
 ## How to establish connectivity within AWS Resources
 Connectivity can be classified into two types 
-1. Connectivity between resources such as EC2 connecting to S3 or Lambda connecting to DynamoDb. Such connectivity is often achieved via IAM Roles.
+1. Connectivity between resources such as EC2 connecting to S3 or Lambda connecting to DynamoDB. Such connectivity is often achieved via IAM Roles.
 2. Application running within a resource connecting to another resource. Such as a SpringBoot application running in EC2 connecting to RDS. It is often achieved through AWS SDK and user credentials.
 
 ## Credential provider chain
