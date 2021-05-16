@@ -89,7 +89,17 @@ Connectivity can be classified into two types
 ## Credential provider chain
 https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html
 
+## Spring Boot, RDS, Secrets Manager, AWS SDK
+https://github.com/aws/aws-secretsmanager-jdbc
+ 
 ## JBoss EAP on AWS Cloud
+https://aws.amazon.com/de/blogs/germany/elastic-jboss-as-7-clustering-in-aws-using-ec2-s3-elb-and-chef/
+
+## Key Repositories 
+https://github.com/aws
+https://github.com/awslabs
+
+
 
 
 
