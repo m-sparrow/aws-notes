@@ -76,7 +76,7 @@
 
 ## How to create resources in AWS
 Resources can be created through one of the following methods
-1. Through Management Console
+1. Through AWS Management Console
 2. Using AWS Client utility
 3. Using AWS SDK
 4. Using IAC tools such as CloudFormation, Terraform or similar IAC tools
@@ -98,6 +98,10 @@ https://aws.amazon.com/de/blogs/germany/elastic-jboss-as-7-clustering-in-aws-usi
 ## Key Repositories 
 https://github.com/aws
 https://github.com/awslabs
+
+## How to manage Keystore and Trustore
+It can be uploaded to AWS Secrets Manager depending on the size of JKS file. Best approach would be to upload the JKS file to private S3 bucket and it's password to AWS Secrets Manager. Then, download the JKS file from S3 Bucket into instance file system using aws client before starting the application.
+
 
 
 
