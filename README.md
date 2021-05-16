@@ -55,6 +55,28 @@
 41. Step Functions - Implement State Machines | **App Integration**
 
 42. Kinesis - ?
+43. Glue - ?
+44. App Flow - ?
+45. App Mesh - ?
+46. Athena - ?
+47. Config - ?
+48. Shield - ?
+49. WAF - ?
+50. Audit Manager - ?
+51. Firewall Manager - ?
+52. Security Hub - ?
+53. Macie - ?
+54. License Manager - ?
+55. Cloud HSM - ?
+56. KMS - ?
+57. App Config - ?
+58. Health - ?
+59. Systems Manager - ?
+60. Cloud Map - ?
+
+
+
+
 
 
 
