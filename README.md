@@ -1,4 +1,4 @@
-# aws-notes
+# AWS Notes
 
 ## Commonly Used Services
 1. EC2 - Virtual Server | **Compute**
