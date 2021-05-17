@@ -112,6 +112,9 @@ It can be uploaded to AWS Secrets Manager depending on the size of JKS file. Bes
 3. Configure event for EventBridge which triggers RUN COMMAND from AWS Systems Manager
 4. From AWS Systems Manager trigger the shell script (point 1)
 
+Alternately,
+Lambda can be used to trigger shell script in EC2
+
 
 
 
