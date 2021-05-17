@@ -5,7 +5,7 @@
 2. ECS - Container Engine for running containerised apps | **Compute**
 3. Lambda - Function as a Service | **Compute** | **Serverless**
 4. Elastic Beanstalk - Platform as a Sevice | **Compute**
-5. AWS Batch - ?
+5. AWS Batch - Scheduler | Used EC2 underneath | **Compute**
 6. EKS - Kubernetes Paltform | **Compute**
 
 7. S3 - Object Storage | Often used to store docs, files, images and videos | **Storage**
