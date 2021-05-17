@@ -6,7 +6,7 @@
 3. Lambda - Function as a Service | **Compute** | **Serverless**
 4. Elastic Beanstalk - Platform as a Sevice | **Compute**
 5. AWS Batch - ?
-6. EKs - Kubernetes Paltform | **Compute**
+6. EKS - Kubernetes Paltform | **Compute**
 
 7. S3 - Object Storage | Often used to store docs, files, images and videos | **Storage**
 8. EBS - Block Storage | Used as Hard Drive | **Storage**
@@ -73,6 +73,7 @@
 58. Health - ?
 59. Systems Manager - ?
 60. Cloud Map - ?
+61. Event Bridge - Collects stream of data from various sources and pass in to other resources | Previously known as CloudWatch Events | **App Integration**
 
 ## How to create resources in AWS
 Resources can be created through one of the following methods
@@ -101,6 +102,15 @@ https://github.com/awslabs
 
 ## How to manage Keystore and Truststore
 It can be uploaded to AWS Secrets Manager depending on the size of JKS file. Best approach would be to upload the JKS file to private S3 bucket and it's password to AWS Secrets Manager. Then, download the JKS file from S3 Bucket into instance file system using aws client before starting the application.
+
+## How to restart an EC2 instance when application goes hung resulting in high memory usage
+1. Create a shell script which 
+- takes thread dump 
+- upload the thread dump to private S3 bucket using aws client
+- Finally terminates the EC2 instance
+2. Attach AutoScaling to bring replacement for terminated EC2 instance
+3. Configure event for EventBridge which triggers RUN COMMAND from AWS Systems Manager
+4. From AWS Systems Manager trigger the shell script (point 1)
 
 
 
