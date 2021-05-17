@@ -65,12 +65,12 @@
 50. Audit Manager - ?
 51. Firewall Manager - ?
 52. Security Hub - ?
-53. Macie - ?
-54. License Manager - ?
+53. Macie - Data Security Tool | alert unprotected PII data using machine learning | **Application Data Security**
+54. License Manager - Manage Software Licenses | **Governance**
 55. Cloud HSM - Single tenant key management service | **Cryptography** | **Public Key Infrastructure**
 56. KMS - Key Management Service | Internally used by other services such as EBS, Sercrets Manager and other services for encryption | **Cryptography** | **Public Key Infrastructure**
 57. App Config - ?
-58. Health - ?
+58. Health - Monitor resource performance | **Monitoring**
 59. Systems Manager - It is a vast topic | Used to manage the infrastructure | its capabilities are broadly classified into categories such as Application Management, Operations Management, Change Management, Node Management and Shared Resources | Parameter Store is part of Systems Manager where consfiguration parameters can be stored | Can execute a conmand on EC2 instance using RUN COMMAND feature | **Management and Governance**
 60. Cloud Map - ?
 61. Event Bridge - Collects stream of data from various sources and pass in to other resources | Previously known as CloudWatch Events | **App Integration**
