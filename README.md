@@ -118,6 +118,15 @@ Lambda can be used to trigger shell script in EC2
 https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-ec2-run-command.html
 https://www.amazonaws.cn/en/getting-started/tutorials/remotely-run-commands-ec2-instance-systems-manager/
 
+## How to setup active-passive failover strategy setup in AWS
+Often Active-Passive setup is required in case of DR setup.
+
+If such setup is required across regions, the best way to achieve is through Route53
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-types.html#dns-failover-types-active-passive
+
+
+
+
 
 
 
