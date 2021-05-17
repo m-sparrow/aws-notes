@@ -115,7 +115,8 @@ It can be uploaded to AWS Secrets Manager depending on the size of JKS file. Bes
 Alternately,
 Lambda can be used to trigger shell script in EC2
 
-
+https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-ec2-run-command.html
+https://www.amazonaws.cn/en/getting-started/tutorials/remotely-run-commands-ec2-instance-systems-manager/
 
 
 
