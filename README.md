@@ -55,20 +55,20 @@
 41. Step Functions - Implement State Machines | **App Integration**
 
 42. Kinesis - ?
-43. Glue - ?
+43. Glue - Managed ETL | **Analytics**
 44. App Flow - ?
 45. App Mesh - ?
-46. Athena - ?
-47. Config - ?
-48. Shield - ?
-49. WAF - ?
+46. Athena - Query service for S3 | **Analytics**
+47. Config - Assess, Evaluate and Monitor configuration changes in AWS resources | **Monitoring**
+48. Shield - Managed DDoS protection | **Application Security**
+49. WAF - Web Application Firewall | protect from SQL Injection and Cross Site Scripting | **Application Security**
 50. Audit Manager - ?
 51. Firewall Manager - ?
 52. Security Hub - ?
 53. Macie - ?
 54. License Manager - ?
-55. Cloud HSM - ?
-56. KMS - ?
+55. Cloud HSM - Single tenant key management service | **Cryptography** | **Public Key Infrastructure**
+56. KMS - Key Management Service | Internally used by other services such as EBS, Sercrets Manager and other services for encryption | **Cryptography** | **Public Key Infrastructure**
 57. App Config - ?
 58. Health - ?
 59. Systems Manager - It is a vast topic | Used to manage the infrastructure | its capabilities are broadly classified into categories such as Application Management, Operations Management, Change Management, Node Management and Shared Resources | Parameter Store is part of Systems Manager where consfiguration parameters can be stored | Can execute a conmand on EC2 instance using RUN COMMAND feature | **Management and Governance**
