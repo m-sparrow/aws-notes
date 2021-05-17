@@ -14,7 +14,7 @@
 10. Storage Gateway - Mostly used to have application on premesis and data on cloud | **Storage**
 
 11. RDS - Relational Database Solution | **Database**
-12. Aurora - ?
+12. Aurora - Part of RDS | Available in 2 flavours: MySQL and Postgres | More read replicas than RDS, therefore high performance | Automatic storage growth | Costlier than RDS | **Database**
 13. DynamoDB - Something similar to MongoDB where data is saved in key-value pairs | **Database**
 14. Keyspaces - NoSQL DB | Similar to Cassandra | **Database**
 15. Neptune - Graph DB | Similar to Neo4J | **Database**
