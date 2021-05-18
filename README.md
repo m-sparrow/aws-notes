@@ -56,7 +56,7 @@
 
 42. Kinesis - Analytics tool for data analysis on streams such  as video and data from other streaming applications such as Apache Spark or Apache Flinch | **Analytics**
 43. Glue - Managed ETL | **Analytics**
-44. App Flow - ?
+44. App Flow - Exchange data with other Software as a Service apps | **App Integration**
 45. App Mesh - Implementation of service mesh pattern | **Microservices**
 46. Athena - Query service for S3 | **Analytics**
 47. Config - Assess, Evaluate and Monitor configuration changes in AWS resources | **Monitoring**
