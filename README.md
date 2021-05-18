@@ -57,7 +57,7 @@
 42. Kinesis - Analytics tool for data analysis on streams such  as video and data from other streaming applications such as Apache Spark or Apache Flinch | **Analytics**
 43. Glue - Managed ETL | **Analytics**
 44. App Flow - ?
-45. App Mesh - ?
+45. App Mesh - Implementation of service mesh pattern | **Microservices**
 46. Athena - Query service for S3 | **Analytics**
 47. Config - Assess, Evaluate and Monitor configuration changes in AWS resources | **Monitoring**
 48. Shield - Managed DDoS protection | **Application Security**
@@ -72,7 +72,7 @@
 57. App Config - Part of AWS Systems Manager | Maintain and deploy application configuration | Analogous to Config Server | **App Configuration** 
 58. Health - Monitor resource performance | **Monitoring**
 59. Systems Manager - It is a vast topic | Used to manage the infrastructure | its capabilities are broadly classified into categories such as Application Management, Operations Management, Change Management, Node Management and Shared Resources | Parameter Store is part of Systems Manager where consfiguration parameters can be stored | Can execute a conmand on EC2 instance using RUN COMMAND feature | **Management and Governance**
-60. Cloud Map - ?
+60. Cloud Map - Maintain a map of resource identifiers | Often used with ECS and Kubernetes | **Microservices**
 61. Event Bridge - Collects stream of data from various sources and pass in to other resources | Previously known as CloudWatch Events | **App Integration**
 62. Network Firewall Manager - Protection at VPC level | **Security**
 
