@@ -75,6 +75,9 @@
 60. Cloud Map - Maintain a map of resource identifiers | Often used with ECS and Kubernetes | **Microservices**
 61. Event Bridge - Collects stream of data from various sources and pass in to other resources | Previously known as CloudWatch Events | **App Integration**
 62. Network Firewall Manager - Protection at VPC level | **Security**
+63. AWS Backup - Managed Centralised Backup Service | **Backup**
+64. QLDB - Immutable Cryptographically verifiable ledge | **Blockchain**
+65. Timestream - Time series DB | **Database**
 
 ## How to create resources in AWS
 Resources can be created through one of the following methods
