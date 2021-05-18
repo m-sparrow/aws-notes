@@ -20,7 +20,7 @@
 15. Neptune - Graph DB | Similar to Neo4J | **Database**
 
 16. ElastiCache - Cache Implemntation | Redis or Memcache | **Cache** | **Database**
-17. Redshift - ?
+17. Redshift - Data Warehouse Tool | **Analytics**
 
 18. ElastiSearch - Implemtation of ELK STACK | **Application Logging** | **Analytics**
 19. Secrets Manager - Manage secrets such as credentials | *Key Rotation** | **Keystore** | **Securtiy and Compliance** | **Cryptography**
@@ -54,7 +54,7 @@
 40. SWF - Workflow service like JBPM or Drools | **App Integration**
 41. Step Functions - Implement State Machines | **App Integration**
 
-42. Kinesis - ?
+42. Kinesis - Analytics tool for data analysis on streams such  as video and data from other streaming applications such as Apache Spark or Apache Flinch | **Analytics**
 43. Glue - Managed ETL | **Analytics**
 44. App Flow - ?
 45. App Mesh - ?
@@ -62,18 +62,19 @@
 47. Config - Assess, Evaluate and Monitor configuration changes in AWS resources | **Monitoring**
 48. Shield - Managed DDoS protection | **Application Security**
 49. WAF - Web Application Firewall | protect from SQL Injection and Cross Site Scripting | **Application Security**
-50. Audit Manager - ?
-51. Firewall Manager - ?
+50. Audit Manager - Tool to collect evidences on AWS Resources for Audit | **Governance**
+51. Firewall Manager - Protection at Organisation level acrosss multiple accounts | **Security**
 52. Security Hub - ?
 53. Macie - Data Security Tool | alert unprotected PII data using machine learning | **Application Data Security**
 54. License Manager - Manage Software Licenses | **Governance**
 55. Cloud HSM - Single tenant key management service | **Cryptography** | **Public Key Infrastructure**
 56. KMS - Key Management Service | Internally used by other services such as EBS, Sercrets Manager and other services for encryption | **Cryptography** | **Public Key Infrastructure**
-57. App Config - ?
+57. App Config - Part of AWS Systems Manager | Maintain and deploy application configuration | Analogous to Config Server | **App Configuration** 
 58. Health - Monitor resource performance | **Monitoring**
 59. Systems Manager - It is a vast topic | Used to manage the infrastructure | its capabilities are broadly classified into categories such as Application Management, Operations Management, Change Management, Node Management and Shared Resources | Parameter Store is part of Systems Manager where consfiguration parameters can be stored | Can execute a conmand on EC2 instance using RUN COMMAND feature | **Management and Governance**
 60. Cloud Map - ?
 61. Event Bridge - Collects stream of data from various sources and pass in to other resources | Previously known as CloudWatch Events | **App Integration**
+62. Network Firewall Manager - Protection at VPC level | **Security**
 
 ## How to create resources in AWS
 Resources can be created through one of the following methods
