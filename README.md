@@ -42,7 +42,7 @@
 33. ClouWatch - What happened (events) within services | **Monitoring**
 34. CloudTrail - Who triggered (events) upon services | **Monitoring**
 
-35. CloudFormation - IAC
+35. CloudFormation - **IAC**
 
 36. Cognito - User Sign Up for web and mobile apps | **Authentication**
 
@@ -64,7 +64,7 @@
 49. WAF - Web Application Firewall | protect from SQL Injection and Cross Site Scripting | **Application Security**
 50. Audit Manager - Tool to collect evidences on AWS Resources for Audit | **Governance**
 51. Firewall Manager - Protection at Organisation level acrosss multiple accounts | **Security**
-52. Security Hub - ?
+52. Security Hub - Collects security data across various accounts and services | **Monitoring** | **Security Audit**
 53. Macie - Data Security Tool | alert unprotected PII data using machine learning | **Application Data Security**
 54. License Manager - Manage Software Licenses | **Governance**
 55. Cloud HSM - Single tenant key management service | **Cryptography** | **Public Key Infrastructure**
